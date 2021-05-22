@@ -20,10 +20,10 @@ header{
     align-items: center;
     /* margin: 1rem 2rem; */
     padding: 1rem 2rem;
-    background: rgb(54, 8, 128);
+    background: rgb(145, 10, 199);
 }
 ::placeholder{
-    color: darkcyan;
+    color: rgb(167, 76, 228);
     font-size: 1rem;
     /* text-align: center; */
 }
@@ -42,10 +42,15 @@ header button{
     cursor: pointer;
 
 }
+button:hover{
+    color:rgb(156, 110, 230);
+    background-color: rgb(68, 67, 67);
+    opacity: 0.7;
+}
 h1{
     font-size: 30px;
     font-weight: bold;
-    color: darkcyan;
+    color: rgb(160, 71, 196);
     text-align: center;
 }
 main{
@@ -87,7 +92,7 @@ main{
 }
 .form button{
     padding: .2rem .4rem;
-    background: darkcyan;
+    background: rgb(179, 44, 233);
     border: none;
     outline: none;
     color: white;
@@ -98,7 +103,7 @@ main{
     transition: all 1s ease-in-out;
 }
 .form button:hover{
-    background: cyan;
+    background: rgb(161, 78, 187);
     color: black;
     font-weight: bold;
 }
